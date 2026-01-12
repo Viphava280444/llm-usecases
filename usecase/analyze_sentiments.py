@@ -22,5 +22,5 @@ def analyze_sentiment(text):
     )
     return response.choices[0].message.content.strip().lower()
 
-print(analyze_sentiment('This is very bad'))
+print(analyze_sentiment("The sun is shining, the birds are singing, and it's a beautiful day!"))
     
